@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-2</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body class="google_font">
     <section class="second_body">
@@ -12,6 +13,7 @@
         <section class="navbar_style">
           <div class="nav_conteiner">
             <div><h1 class="title_header">Fitness</h1></div>
+            <div class="font_icon"><i class="fas fa-bars"></i></div>
             <div>
               <ul class="nav_list">
                 <li id="first_list">Home</li>
@@ -140,73 +142,115 @@
         <!-- run section end -->
 
         <!-- Trainings section start -->
-         <section class="Trainings_container">
-             <h1 class="Trainings_title">Trainings and Exercises</h1>
-             <p class="Trainings_description">We believe fitness should be accessible to everyone, everywhere, regardless of income <br> or access to a gym.</p>
-             <div class="Trainings_container_img">
-                  <div class="Trainings_img_colume_1">
-                     <img class="Trainings_img_1" src="images/exercise1.jpg" alt="">
-                     <img class="Trainings_img_2" src="images/exercise2.png" alt="">
-                     <img class="Trainings_img_3" src="images/exercise3.png" alt="">
-                  </div>
-                  <div class="Trainings_img_colume_1">
-                     <img class="Trainings_img_4" src="images/exercise4.png" alt="">
-                     <img class="Trainings_img_5" src="images/exercise5.jpg" alt="">
-                     <img class="Trainings_img_6" src="images/exercise6.jpg" alt="">
-                  </div>
-             </div>
-         </section>
+        <section class="Trainings_container">
+          <h1 class="Trainings_title">Trainings and Exercises</h1>
+          <p class="Trainings_description">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income <br />
+            or access to a gym.
+          </p>
+          <div class="Trainings_container_img">
+            <div class="Trainings_img_colume_1">
+              <img class="Trainings_img_1" src="images/exercise1.jpg" alt="" />
+              <img class="Trainings_img_2" src="images/exercise2.png" alt="" />
+              <img class="Trainings_img_3" src="images/exercise3.png" alt="" />
+            </div>
+            <div class="Trainings_img_colume_1">
+              <img class="Trainings_img_4" src="images/exercise4.png" alt="" />
+              <img class="Trainings_img_5" src="images/exercise5.jpg" alt="" />
+              <img class="Trainings_img_6" src="images/exercise6.jpg" alt="" />
+            </div>
+          </div>
+        </section>
         <!-- Trainings section end -->
 
         <!-- bmi section start -->
         <section class="bmi_section">
-           <h1 class="bmi_heding">BMI Calculator</h1>
-           <p class="bmi_heding_description">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym.</p>
-           <div class="full_chart_container">
+          <h1 class="bmi_heding">BMI Calculator</h1>
+          <p class="bmi_heding_description">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of <br />
+            income or access to a gym.
+          </p>
+          <div class="full_chart_container">
             <div class="Calculator_chart">
-               <h1 class="Calculator_title">BMI Calculator Chart</h1>
-               <div class="calculatr_chart_row">
-                   <div class="bmi_chart_row">
-                     <p class="bmi_chart">BMI</p>
-                     <p class="bmi_chart">Weight Status</p>
-                   </div>
-                   <div class="bmi_chart_row_1">
-                     <p class="bmi_chart">Below 18.5</p>
-                     <p class="bmi_chart">Underweight</p>
-                   </div>
-                   <div class="bmi_chart_row_1">
-                     <p class="bmi_chart">18.5 - 24.9</p>
-                     <p class="bmi_chart">Healthy</p>
-                   </div>
-                   <div class="bmi_chart_row_1">
-                     <p class="bmi_chart">25.0 - 29.9</p>
-                     <p class="bmi_chart">Overweight</p>
-                   </div>
-                   <div class="bmi_chart_row_1">
-                     <p class="bmi_chart">30.0 - and Above</p>
-                     <p class="bmi_chart">Obese</p>
-                   </div>
-               </div>
-           </div>
-
-           <div class="Calculate_bmi">
-              <h1 class="Calculate_bmi_title">Calculate your BMI</h1>
-              <p class="Calculate_bmi_description">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. </p>
-              <div class="input_bmi">
-               <div class="chart_inpupt">
-                  <input class="chart" type="text" name="" id="" placeholder="Height/cm">
-                  <input class="chart"  type="text" name="" id="" placeholder="Weight/kg">
-               </div>
-               <div class="chart_inpupt">
-                  <input class="chart" type="text" name="" id="" placeholder="Age">
-                  <input class="chart"  type="text" name="" id="" placeholder="sex">
-               </div>
-               <div class="chart_inpupt">
-                  <input  class="chart_2" type="text" name="" id="" placeholder="Select an activity factor">
-               </div>
+              <h1 class="Calculator_title">BMI Calculator Chart</h1>
+              <div class="calculatr_chart_row">
+                <div class="bmi_chart_row">
+                  <p class="bmi_chart">BMI</p>
+                  <p class="bmi_chart">Weight Status</p>
+                </div>
+                <div class="bmi_chart_row_1">
+                  <p class="bmi_chart">Below 18.5</p>
+                  <p class="bmi_chart">Underweight</p>
+                </div>
+                <div class="bmi_chart_row_1">
+                  <p class="bmi_chart">18.5 - 24.9</p>
+                  <p class="bmi_chart">Healthy</p>
+                </div>
+                <div class="bmi_chart_row_1">
+                  <p class="bmi_chart">25.0 - 29.9</p>
+                  <p class="bmi_chart">Overweight</p>
+                </div>
+                <div class="bmi_chart_row_1">
+                  <p class="bmi_chart">30.0 - and Above</p>
+                  <p class="bmi_chart">Obese</p>
+                </div>
               </div>
-           </div>
-           </div>
+            </div>
+
+            <div class="Calculate_bmi">
+              <h1 class="Calculate_bmi_title">Calculate your BMI</h1>
+              <p class="Calculate_bmi_description">
+                We believe fitness should be accessible to everyone, <br />
+                everywhere, regardless of income or access to a gym.
+              </p>
+              <div class="input_bmi">
+                <div class="chart_inpupt">
+                  <input
+                    class="chart"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Height/cm"
+                  />
+                  <input
+                    class="chart"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Weight/kg"
+                  />
+                </div>
+                <div class="chart_inpupt">
+                  <input
+                    class="chart"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Age"
+                  />
+                  <input
+                    class="chart"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="sex"
+                  />
+                </div>
+                <div class="chart_inpupt">
+                  <input
+                    class="chart_2"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Select an activity factor"
+                  />
+                </div>
+                <button class="btn_3">Calculate</button>
+              </div>
+            </div>
+          </div>
         </section>
         <!-- bmi section end -->
 
@@ -237,7 +281,42 @@
         </section>
         <!-- meet section end -->
       </main>
-      <footer></footer>
+      <footer class="all_footer">
+        <div class="footer_container">
+          <div>
+            <h1 class="footer_title">Fitness</h1>
+            <p class="footer_description">
+              We believe fitness should be accessible to everyone, everywhere,<br>
+              regardless of income or access to a gym. With hundreds of <br>
+              professional workouts.
+            </p>
+          </div>
+          <div class="samll_footer">
+              <div class="footer_2nd_title">
+                  <h1>Get Started</h1>
+              </div>
+              <div class="fotter_angcore">
+                <p>Service</p>
+                <p>Contact US</p>
+                <p>Affiliate Program</p>
+                <p>About US</p>
+              </div>
+          </div>
+          <div class="samll_footer">
+            <div class="footer_2nd_title">
+              <h1>Get Started</h1>
+          </div>
+          <div class="fotter_angcore">
+            <p>Fitness</p>
+            <p>Platform</p>
+            <p>Workout Libary</p>
+            <p>App Design</p>
+          </div>
+          </div>
+        </div>
+        <hr class="fotter_line">
+        <h3 class="fotter_ending">Shakilhosain399@gmail.com - 2024</h3>
+      </footer>
     </section>
   </body>
 </html>
